@@ -37,7 +37,8 @@ jsUser.greet2 = function(){
 }
 
 console.log(jsUser.greet());
-console.log(jsUser.greet2());
+console. log(jsUser.greet2());
 
 
 /*---------------Objects ADV-part---------------*/
+
