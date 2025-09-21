@@ -99,12 +99,54 @@ const users = [
 ]
 
 users[1].email
-console.log(inUser);
+// console.log(inUser);
 
-console.log(Object.keys(inUser));
-console.log("-------");
+// console.log(Object.keys(inUser));
+// console.log("-------");
 
-console.log(Object.values(inUser));
-console.log("-------");
-console.log(Object.entries(inUser));
-console.log("-------");
+// console.log(Object.values(inUser));
+// console.log("-------");
+// console.log(Object.entries(inUser));
+// console.log("-------");
+
+// console.log(inUser.hasOwnProperty('isregistered'));
+
+/*----------object_Prt-3----------*/
+
+//destructuring
+
+const course = {
+    coursename: "JsBasics",
+    price:"Free",
+    courseInstructor: "aryan"
+}
+
+//couse.cousreInstructor
+
+const{courseInstructor: tutor} = course
+//destructuring->courseInstructor: tutor 
+//here tutor is now be new courseInstructor
+
+
+// console.log(courseInstructor);
+console.log(tutor);
+
+/*
+HERE WE PASSES PROPS USING PROPS.COMPANY AND BY USING JS METHOD WE ONLY PASS COMPANY NOT PROPS.COMPANY
+{}=> USES IN DESTRUCTURING
+{}=> ALSO USED TO DECLARE OBJECTS IN JS
+
+const navbar = ({company}) => {
+}
+navbar(company = "akura")
+*/
+
+// {
+//     "name":"sample",
+//     "age":"infinite",
+//     "price": "free"
+// }
+//  => NOW ITS JSON BUT IN OBJECT FORM
+
+ 
+
