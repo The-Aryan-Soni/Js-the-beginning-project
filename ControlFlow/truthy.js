@@ -27,6 +27,17 @@
 
 let val1;
 
-val = 5 ?? 10
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+val1 = undefined ?? 10
 
 console.log(val1);
+
+
+// terniary operator
+// ---->
+// condition ? true : false
+
+const winnig = 10000
+
+winnig >= 500 ? console.log("more than 500"): console.log("less than 500")
