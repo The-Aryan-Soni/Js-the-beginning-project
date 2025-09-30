@@ -28,3 +28,4 @@ const mynums = [1,2,4,5,65,2,12]
 //     }
 // })
 // console.log(newnum);
+
